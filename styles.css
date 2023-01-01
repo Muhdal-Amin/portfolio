@@ -108,6 +108,7 @@ img {
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
+    margin-bottom: 50px;
   }
 
   .nav-list {
@@ -169,7 +170,6 @@ img {
   .cardBox {
     width: 250px;
     height: 250px;
-    top: 50%;
     position: relative;
     display: grid;
     place-items: center;
