@@ -115,9 +115,7 @@ img {
   }
 
   .nav-list a {
-    display: block;
     font-size: 1.5rem;
-    padding: 2rem;
   }
   
 }
@@ -171,7 +169,7 @@ img {
   .cardBox {
     width: 250px;
     height: 250px;
-    margin-top: 50px;
+    padding-top: 50px;
     position: relative;
     display: grid;
     place-items: center;
