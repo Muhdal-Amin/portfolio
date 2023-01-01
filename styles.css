@@ -279,6 +279,10 @@ span {
   .welcome-section > h1 {
     font-size: 3.5rem;
   }
+
+  .p-1 {
+    margin-top: 20px;
+  }
 }
 
 
