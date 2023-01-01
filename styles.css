@@ -307,13 +307,20 @@ span {
   .projects-section-header {
    font-size: 3.3rem;
   }
+}
+
+  @media (max-width: 28.75em) {
+    .projects-section-header {
+     font-size: 3rem;
+    }
+}
 
   .projects-section {
     border-bottom-left-radius: 0% 0%;
     border-bottom-right-radius: 0% 0%;
     border-top-left-radius: 0% 0%; 
   }
-}
+
 
 .projects-grid {
   display: grid;
