@@ -108,7 +108,7 @@ img {
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .nav-list {
@@ -280,7 +280,7 @@ span {
     font-size: 3.6rem;
   }
 
-  .welcome-section > p {
+  .p-1 {
     font-size: 3rem;
   }
 }
