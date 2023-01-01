@@ -161,7 +161,7 @@ img {
 }
 
 @media (max-width: 20.75em) {
-  .cardbox {
+  .cardBox {
     height: 250px;
     width: 250px;
   }
