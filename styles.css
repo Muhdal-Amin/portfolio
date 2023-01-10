@@ -306,13 +306,6 @@ span {
   .projects-section-header {
    font-size: 3.3rem;
   }
-}
-
-  @media (max-width: 28.75em) {
-    .projects-section-header {
-     font-size: 2.7rem;
-    }
-}
 
   .projects-section {
     border-bottom-left-radius: 0% 0%;
@@ -320,6 +313,13 @@ span {
     border-top-left-radius: 0% 0%; 
   }
 
+}
+
+  @media (max-width: 28.75em) {
+    .projects-section-header {
+     font-size: 2.7rem;
+    }
+}
 
 .projects-grid {
   display: grid;
@@ -409,19 +409,19 @@ span {
   border-top-right-radius: 50% 20%;
 }
 
-.contact-section-header > h2 {
+.contact-section-header > h3 {
   font-size: 6rem;
 }
 
 @media (max-width: 50.75em) {
-  .contact-section-header > h2 {
-    font-size: 3.3rem;
+  .contact-section-header > h3 {
+    font-size: 4.5rem;
   }
 }
 
 @media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 2rem;
+  .contact-section-header > h3 {
+    font-size: 3.7rem;
   }
 }
 
