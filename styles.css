@@ -169,8 +169,8 @@ img {
 
 @media (max-width: 28.75em) {
   .cardBox {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     position: relative;
     display: grid;
     place-items: center;
