@@ -142,8 +142,6 @@ img {
   height: 100vh;
   background-color: #000;
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-  border-bottom-left-radius: 50% 0%;
-  border-bottom-right-radius: 50% 20%;
 }
 
 .welcome-section > p {
@@ -156,8 +154,8 @@ img {
 .cardBox {
   width: 300px;
   height: 300px;
-  top: 3%;
   position: relative;
+  top:3%;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -166,7 +164,7 @@ img {
     rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 27.5em) {
   .cardBox {
     width: 300px;
     height: 300px;
@@ -200,7 +198,7 @@ img {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
 }
-.card h3 span {
+.card h3 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -209,10 +207,6 @@ img {
   font-weight: 800;
   pointer-events: none;
   opacity: 0.1;
-}
-
-span {
-  top: 75%;
 }
 
 .card .content h3 {
@@ -264,11 +258,6 @@ span {
 }
 
 @media (max-width: 50.75em) {
-  .welcome-section {
-    border-bottom-left-radius: 0% 0%;
-    border-bottom-right-radius: 0% 0%;
-  }
-
   .welcome-section > h1 {
     font-size: 5rem;
   }
@@ -291,9 +280,6 @@ span {
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
-  border-bottom-left-radius: 50% 10%;
-  border-bottom-right-radius: 50% 0%;
-  border-top-left-radius: 50% 10%;
 }
 
 .projects-section-header {
@@ -304,20 +290,13 @@ span {
 
 @media (max-width: 50.75em) {
   .projects-section-header {
-   font-size: 3.3rem;
+   font-size: 3.5rem;
   }
-
-  .projects-section {
-    border-bottom-left-radius: 0% 0%;
-    border-bottom-right-radius: 0% 0%;
-    border-top-left-radius: 0% 0%; 
-  }
-
 }
 
   @media (max-width: 28.75em) {
     .projects-section-header {
-     font-size: 2.5rem;
+     font-size: 2.8rem;
     }
 }
 
@@ -406,22 +385,15 @@ span {
   padding: 0 2rem;
   background-color: #000;
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-  border-top-right-radius: 50% 20%;
 }
 
 .contact-section-header > h3 {
   font-size: 6rem;
 }
 
-@media (max-width: 50.75em) {
-  .contact-section-header > h3 {
-    font-size: 4.5rem;
-  }
-}
-
 @media (max-width: 28.75em) {
-  .contact-section-header > h3 {
-    font-size: 3.7rem;
+  .contact-section-header > h4 {
+    font-size: 3.5rem;
   }
 }
 
@@ -453,12 +425,7 @@ span {
   .contact-details {
     font-size: 2.2rem;
   }
-
-  .contact-section {
-    border-top-right-radius: 0% 0%; 
-  }
-
-  .contact-section-header > h2 {
+  .contact-section-header > h3 {
     font-size: 4.5rem;
   }
   

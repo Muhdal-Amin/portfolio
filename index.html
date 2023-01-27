@@ -59,7 +59,7 @@
   <!-- START PROJECTS SECTION -->
   
   <section id="projects" class="projects-section">
-    <h2 class="projects-section-header">These are some of my projects</h2>
+    <h2 class="projects-section-header">PROJECTS</h2>
   
     <div class="projects-grid">
       <a
@@ -216,5 +216,25 @@
   </footer>
   
   <!-- END FOOTER SECTION -->
+
+  <script>
+    const revealElements = document.querySelectorAll("[data-reveal]");
+
+const scrollReveal = function(){
+  for(let i = 0; i < revealElements.length; i++){
+    const isElementsOnScreen = revealElements[i].getBoundingClientRect().top < window.innerHeight;
+    
+    if(isElementsOnScreen){
+      revealElements[i].classList.add("revealed")
+    } else {
+      revealElements[i].classList.remove("revealed")
+    }
+  }
+}
+
+window.addEventListener("scroll", scrollReveal);
+window.addEventListener("load", scrollReveal);
+  </script>
+
 </body>
 </html>
