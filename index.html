@@ -44,13 +44,13 @@
   <section id="welcome-section" class="welcome-section">
     <div class="cardBox">
       <div class="card">
-      <img src="./Images/the_autopoet_I_2022_Aug_14_12_51_37-removebg-preview.png" alt="" style="padding-top: -10px;">
+      <img src="./Images/the_autopoet_I_2022_Aug_14_12_51_37-removebg-preview.png" alt="">
         <div class="content">
           <h3>How's it goin?</h3>
         </div>
       </div>
     </div>
-    <h1 style="padding-top: 40px;">Hey, I am AL 'AMIN!</h1>
+    <h1 style="padding-top: 40px;" class = "header_1">Hey, I am AL 'AMIN!</h1>
     <p class="p-1">A web developer</p>
   </section>
   
@@ -59,7 +59,7 @@
   <!-- START PROJECTS SECTION -->
   
   <section id="projects" class="projects-section">
-    <h2 class="projects-section-header">PROJECTS</h2>
+    <h1 class="projects-section-header">PROJECTS</h1>
   
     <div class="projects-grid">
       <a
@@ -174,7 +174,7 @@
   
   <section id="contact" class="contact-section">
     <div class="contact-section-header">
-      <h3 class="contact-header">Let's work together...</h3>
+      <h1 class="contact-header">Let's work together...</h1>
       <p class = contact-p>How do you take your coffee?</p>
     </div>
     <div class="contact-links">
@@ -216,25 +216,6 @@
   </footer>
   
   <!-- END FOOTER SECTION -->
-
-  <script>
-    const revealElements = document.querySelectorAll("[data-reveal]");
-
-const scrollReveal = function(){
-  for(let i = 0; i < revealElements.length; i++){
-    const isElementsOnScreen = revealElements[i].getBoundingClientRect().top < window.innerHeight;
-    
-    if(isElementsOnScreen){
-      revealElements[i].classList.add("revealed")
-    } else {
-      revealElements[i].classList.remove("revealed")
-    }
-  }
-}
-
-window.addEventListener("scroll", scrollReveal);
-window.addEventListener("load", scrollReveal);
-  </script>
 
 </body>
 </html>
